@@ -191,6 +191,9 @@ nav {
     position: relative;
     overflow: hidden;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero::before {
