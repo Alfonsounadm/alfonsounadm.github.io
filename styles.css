@@ -6,25 +6,41 @@
 }
 
 :root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
-    --text-color: #333;
-    --bg-color: #fff;
-    --section-bg: #f8f9fa;
-    --card-bg: #fff;
-    --border-color: #eee;
+    /* Colores primarios y secundarios */
+    --primary-color: #2561D9;       /* Azul principal */
+    --primary-light: #2975D9;       /* Azul claro */
+    --accent-color: #CFF250;        /* Verde neón (acento) */
+    --danger-color: #F23827;        /* Rojo (para errores/alertas) */
+    --dark-color: #262626;          /* Negro/gris oscuro */
+
+    /* Colores neutrales (texto/fondos) */
+    --text-color: #333;             /* Texto oscuro */
+    --bg-color: #fff;               /* Fondo claro */
+    --section-bg: #f8f9fa;          /* Fondo de sección */
+    --card-bg: #fff;                /* Fondo de tarjetas */
+    --border-color: #eee;           /* Borde claro */
+
+    /* Efectos */
     --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
 }
 
 [data-theme="dark"] {
-    --primary-color: #8b9eff;
-    --secondary-color: #a78bfa;
-    --text-color: #e2e8f0;
-    --bg-color: #1a202c;
-    --section-bg: #2d3748;
-    --card-bg: #2d3748;
-    --border-color: #4a5568;
+    /* Ajustes para el tema oscuro */
+    --primary-color: #2975D9;       /* Azul más claro en oscuro */
+    --primary-light: #8b9eff;       /* Azul pastel */
+    --accent-color: #CFF250;        /* El verde neón se mantiene */
+    --danger-color: #ff6b6b;        /* Rojo más suave */
+    --dark-color: #1a1a1a;          /* Negro más profundo */
+
+    /* Neutrales en modo oscuro */
+    --text-color: #e2e8f0;          /* Texto claro */
+    --bg-color: #121212;            /* Fondo oscuro */
+    --section-bg: #1e1e1e;          /* Sección oscura */
+    --card-bg: #262626;             /* Tarjetas en tu gris oscuro */
+    --border-color: #4a5568;        /* Bordes más visibles */
+
+    /* Efectos oscuros */
     --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
